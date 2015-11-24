@@ -1,0 +1,101 @@
+body{
+	color: #293744;
+	font-family: font-family: 'Lato', sans-serif;
+}
+h1, h2{
+	font-family: 'Indie Flower', cursive;
+	color: #4F434F;
+}
+img {
+	max-width: 100%;
+}
+h1{
+	font-weight: 600;
+	padding: 10px;
+}
+h2{
+	padding: 10px;
+}
+ul{
+	list-style: none;
+	padding: 0;
+}
+	li{
+		display: inline-block;
+		padding: 5px 10px;
+	}
+.first{
+	float: none;
+	margin: 80px auto 0;	
+}
+a{
+	color: #0DAAFF;
+	font-size: 1.3em;
+	left: 10px;
+}
+a:hover{
+	color: #24375e;
+	text-decoration: none;
+	text-shadow: 1px 1px 1px;
+}
+.boton-regresar{
+	text-align: center;
+	margin: 25px;
+	display: block;
+
+}
+
+/* --- como ser un vago  */
+
+
+.description-section{
+	border: 3px solid #dce0e3;
+	padding: 15px; 
+}
+
+.columnas-contenedor{
+	text-align: center;
+	margin: 25px 0;
+}
+	.columnas-imagen{
+
+
+	}
+	.columnas-descripcionimg{
+		margin-top: -20px;
+		text-align: left;
+		color: gray;
+	}
+
+/* --  VAGO  --*/
+
+.columna-descripcion{
+	top: 75px;
+	}
+
+
+@media screen and (max-width: 768px){
+.columna-descripcion{
+	top: 0;
+	}
+}
+
+/*  --------- Contacto   ----------------- */
+.form-boostrap{
+
+	font-family: 'Indie Flower', cursive;
+	margin-top: 80px;
+}
+
+/* ----- animacion --- */
+.retraso-1{
+	-webkit-animation-delay: .5s;
+	-moz-animation-delay: .5s;
+	animation-delay: .5s;
+}
+
+.retraso-2{
+	-webkit-animation-delay: 1s;
+	-moz-animation-delay: 1s;
+	animation-delay: 1s;
+}
